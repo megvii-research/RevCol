@@ -1,0 +1,50 @@
+PRINT_FREQ: 100
+SAVE_FREQ: 1
+MODEL_EMA: False
+DATA:
+  IMG_SIZE: 224
+  DATASET: imagenet22k
+  NUM_WORKERS: 8
+MODEL:
+  TYPE: revcol_xlarge
+  NAME: revcol_xlarge_22k_Pretrain
+  LABEL_SMOOTHING: 0.1
+  NUM_CLASSES: 21841
+REVCOL:
+  INTER_SUPV: True
+  SAVEMM: True
+  FCOE: 3.0
+  CCOE: 0.7
+  DROP_PATH: 0.4
+TRAIN:  
+  EPOCHS: 90
+  BASE_LR: 1.25e-4
+  WARMUP_EPOCHS: 5
+  WEIGHT_DECAY: 0.1
+  WARMUP_LR: 1e-5
+  MIN_LR: 1e-7
+  OPTIMIZER:
+    NAME: 'adamw'
+
+AUG:
+  COLOR_JITTER: 0.0
+# Use AutoAugment policy. "v0" or "original"
+  AUTO_AUGMENT: 'rand-m9-mstd0.5-inc1'
+# Random erase prob
+  REPROB: 0.25
+# Random erase mode
+  REMODE: 'pixel'
+# Random erase count
+  RECOUNT: 1
+# Mixup alpha, mixup enabled if > 0
+  MIXUP:  0.8
+# Cutmix alpha, cutmix enabled if > 0
+  CUTMIX: 1.0
+# Cutmix min/max ratio, overrides alpha and enables cutmix if set
+  CUTMIX_MINMAX: None
+# Probability of performing mixup or cutmix when either/both is enabled
+  MIXUP_PROB: 1.0
+# Probability of switching to cutmix when both mixup and cutmix enabled
+  MIXUP_SWITCH_PROB: 0.5
+# How to apply mixup/cutmix params. Per "batch", "pair", or "elem"
+  MIXUP_MODE: 'batch'
