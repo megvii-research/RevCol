@@ -39,8 +39,8 @@ class="center">
 | RevCol-B | ImageNet-1K | 224x224 | 138M | 16.6G | 84.1 |  [baidu]()/[github]() |  - |
 | RevCol-B<sup>\*</sup> | ImageNet-22K | 224x224 | 138M | 16.6G | 85.6 |[baidu]()/[github]()| [baidu]()/[github]()|
 | RevCol-B<sup>\*</sup> | ImageNet-22K | 384x384 | 138M | 48.9G | 86.7 |[baidu]()/[github]()| [baidu]()/[github]()|
-| RevCol-L<sup>\*</sup> | ImageNet-22K | 224x224 | 273M | 86.9 | 86.6 |[baidu]()/[github]()| [baidu]()/[github]()|
-| RevCol-L<sup>\*</sup> | ImageNet-22K | 384x384 | 273M | 87.6 | 87.6 |[baidu]()/[github]()| [baidu]()/[github]()|
+| RevCol-L<sup>\*</sup> | ImageNet-22K | 224x224 | 273M | 39G | 86.6 |[baidu]()/[github]()| [baidu]()/[github]()|
+| RevCol-L<sup>\*</sup> | ImageNet-22K | 384x384 | 273M | 116G | 87.6 |[baidu]()/[github]()| [baidu]()/[github]()|
 
 ## Getting Started
 Please refer to [INSTRUCTIONS.md](INSTRUCTIONS.md) for setting up, training and evaluation details.
@@ -58,3 +58,14 @@ RevCol is released under the [Apache 2.0 license](LICENSE).
 
 ## Contact Us
 If you have any questions about this repo or the original paper, please contact Yuxuan at caiyuxuan@megvii.com.
+
+
+## Citation
+```
+@article{cai2022reversible,
+  title={Reversible Column Networks},
+  author={Cai, Yuxuan and Zhou, Yizhuang and Han, Qi and Sun, Jianjian and Kong, Xiangwen and Li, Jun and Zhang, Xiangyu},
+  journal={arXiv preprint arXiv:2212.11696},
+  year={2022}
+}
+```
