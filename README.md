@@ -4,11 +4,15 @@ This repo is the official implementation of:
 ### [Reversible Column Networks](https://arxiv.org/abs/2212.11696)
 [Yuxuan Cai](https://nightsnack.github.io), [Yizhuang Zhou](https://scholar.google.com/citations?user=VRSGDDEAAAAJ), [Qi Han](https://hanqer.github.io), Jianjian Sun, Xiangwen Kong, Jun Li, [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ) \
 [MEGVII Technology](https://en.megvii.com)\
+International Conference on Learning Representations (ICLR) 2023\
 [\[arxiv\]](https://arxiv.org/abs/2212.11696) 
 
 
 
 ## Updates
+***1/21/2023***\
+RevCol was accepted by ICLR 2023!
+
 ***12/23/2022***\
 Initial commits: codes for ImageNet-1k and ImageNet-22k classification are released.
 
@@ -62,10 +66,11 @@ If you have any questions about this repo or the original paper, please contact 
 
 ## Citation
 ```
-@article{cai2022reversible,
+@inproceedings{cai2022reversible,
   title={Reversible Column Networks},
   author={Cai, Yuxuan and Zhou, Yizhuang and Han, Qi and Sun, Jianjian and Kong, Xiangwen and Li, Jun and Zhang, Xiangyu},
-  journal={arXiv preprint arXiv:2212.11696},
-  year={2022}
+  booktitle={International Conference on Learning Representations},
+  year={2023},
+  url={https://openreview.net/forum?id=Oc2vlWU0jFY}
 }
 ```

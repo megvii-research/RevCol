@@ -124,7 +124,7 @@ def param_groups_lrd(model, weight_decay=0.05, no_weight_decay_list=[], layer_de
 def get_layer_id(n, dp, layers):
     if n.startswith("subnet"):
         name_part = n.split('.')
-        subnet = int(name_part[0][-1])
+        subnet = int(name_part[0][6:])
         if name_part[1].startswith("alpha"):
             id = dp[0][subnet]
         else:
