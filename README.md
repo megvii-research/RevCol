@@ -10,6 +10,9 @@ International Conference on Learning Representations (ICLR) 2023\
 
 
 ## Updates
+***2/10/2023***\
+RevCol model weights released.
+
 ***1/21/2023***\
 RevCol was accepted by ICLR 2023!
 
@@ -21,7 +24,7 @@ Initial commits: codes for ImageNet-1k and ImageNet-22k classification are relea
 
 
 - [x] ImageNet-1K and 22k Training Code  
-- [ ] ImageNet-1K and 22k Model Weights
+- [x] ImageNet-1K and 22k Model Weights
 - [ ] Cascade Mask R-CNN COCO Object Detection Code & Model Weights
 - [ ] ADE20k Semantic Segmentation Code & Model Weights
 
@@ -38,13 +41,13 @@ class="center">
 
 | name | pretrain | resolution | #params |FLOPs | acc@1 | pretrained model | finetuned model |
 |:---------------------:| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| RevCol-T | ImageNet-1K | 224x224 | 30M | 4.5G | 82.2 | [baidu]()/[github]() | - |
-| RevCol-S | ImageNet-1K | 224x224 | 60M | 9.0G | 83.5 | [baidu]()/[github]() | - |
-| RevCol-B | ImageNet-1K | 224x224 | 138M | 16.6G | 84.1 |  [baidu]()/[github]() |  - |
-| RevCol-B<sup>\*</sup> | ImageNet-22K | 224x224 | 138M | 16.6G | 85.6 |[baidu]()/[github]()| [baidu]()/[github]()|
-| RevCol-B<sup>\*</sup> | ImageNet-22K | 384x384 | 138M | 48.9G | 86.7 |[baidu]()/[github]()| [baidu]()/[github]()|
-| RevCol-L<sup>\*</sup> | ImageNet-22K | 224x224 | 273M | 39G | 86.6 |[baidu]()/[github]()| [baidu]()/[github]()|
-| RevCol-L<sup>\*</sup> | ImageNet-22K | 384x384 | 273M | 116G | 87.6 |[baidu]()/[github]()| [baidu]()/[github]()|
+| RevCol-T | ImageNet-1K | 224x224 | 30M | 4.5G | 82.2 | [baidu](https://pan.baidu.com/s/1iGsbdmFcDpwviCHaajeUnA?pwd=h4tj)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_tiny_1k.pth) | - |
+| RevCol-S | ImageNet-1K | 224x224 | 60M | 9.0G | 83.5 | [baidu](https://pan.baidu.com/s/1hpHfdFrTZIPB5NTwqDMLag?pwd=mxuk)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_small_1k.pth) | - |
+| RevCol-B | ImageNet-1K | 224x224 | 138M | 16.6G | 84.1 |  [baidu](https://pan.baidu.com/s/16XIJ1n8pXPD2cXwnFX6b9w?pwd=j6x9)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_1k.pth) |  - |
+| RevCol-B<sup>\*</sup> | ImageNet-22K | 224x224 | 138M | 16.6G | 85.6 |[baidu](https://pan.baidu.com/s/1l8zOFifgC8fZtBpHK2ZQHg?pwd=rh58)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k.pth)| [baidu](https://pan.baidu.com/s/1HqhDXL6OIQdn1LeM2pewYQ?pwd=1bp3)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k_1kft_224.pth)|
+| RevCol-B<sup>\*</sup> | ImageNet-22K | 384x384 | 138M | 48.9G | 86.7 |[baidu](https://pan.baidu.com/s/1l8zOFifgC8fZtBpHK2ZQHg?pwd=rh58)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k.pth)| [baidu](https://pan.baidu.com/s/18G0zAUygKgu58s2AjCBpsw?pwd=rv86)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k_1kft_384.pth)|
+| RevCol-L<sup>\*</sup> | ImageNet-22K | 224x224 | 273M | 39G | 86.6 |[baidu](https://pan.baidu.com/s/1ueKqh3lFAAgC-vVU34ChYA?pwd=qv5m)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k.pth)| [baidu]()/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k_1kft_224.pth)|
+| RevCol-L<sup>\*</sup> | ImageNet-22K | 384x384 | 273M | 116G | 87.6 |[baidu](https://pan.baidu.com/s/1ueKqh3lFAAgC-vVU34ChYA?pwd=qv5m)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k.pth)| [baidu](https://pan.baidu.com/s/1VmCE3W3Xw6-Lo4rWrj9Xzg?pwd=x69r)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k_1kft_384.pth)|
 
 ## Getting Started
 Please refer to [INSTRUCTIONS.md](INSTRUCTIONS.md) for setting up, training and evaluation details.
