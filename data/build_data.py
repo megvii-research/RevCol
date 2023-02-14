@@ -8,9 +8,6 @@
 import queue
 from typing import Dict, Sequence
 import warnings
-from dpflow.pipe import InputPipe
-from dpflow import control
-from data.ImageNet import ImageNet22k, ImageNetNoriDataset
 import os
 import torch
 import numpy as np
