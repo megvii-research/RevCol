@@ -11,7 +11,7 @@ International Conference on Learning Representations (ICLR) 2023\
 
 ## Updates
 **3/9/2023***\
-Detection Code and Model Weights Released.
+Detection, Segmentation Code and Model Weights Released.
 
 ***2/10/2023***\
 RevCol model weights released.
@@ -29,7 +29,7 @@ Initial commits: codes for ImageNet-1k and ImageNet-22k classification are relea
 - [x] ImageNet-1K and 22k Training Code  
 - [x] ImageNet-1K and 22k Model Weights
 - [x] Cascade Mask R-CNN COCO Object Detection Code & Model Weights
-- [ ] ADE20k Semantic Segmentation Code & Model Weights
+- [x] ADE20k Semantic Segmentation Code & Model Weights
 
 
 ## Introduction
