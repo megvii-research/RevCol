@@ -11,7 +11,7 @@ All checkpoints are uploaded to [huggingface](https://huggingface.co/LarryTsai/R
 
 | name | Pretrained Model | Method | Lr Schd | box mAP | mask mAP | #params | FLOPs | Fine-tuned Model |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|:---:| :---:|
-| RevCol-T | [ImageNet-1K](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_tiny_1k.pth) | Cascade Mask R-CNN | 3x | 50.6 | 43.8 | 88M | 741G | [model](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/detection/cmr_revcol_small_3x_in1k.pth) |
+| RevCol-T | [ImageNet-1K](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_tiny_1k.pth) | Cascade Mask R-CNN | 3x | 50.8 | 44.0 | 88M | 741G | [model](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/detection/cmr_tiny_3x_in1k_AP508.pth) |
 | RevCol-S | [ImageNet-1K](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_small_1k.pth) | Cascade Mask R-CNN | 3x | 52.6 | 45.5 | 118M | 833G | [model](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/detection/cmr_revcol_small_3x_in1k.pth) |
 | RevCol-B | [ImageNet-1K](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_base_1k.pth) | Cascade Mask R-CNN | 3x | 53.0 | 45.9 | 196M | 988G | [model](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/detection/cmr_base_3x_in1k.pth) |
 | RevCol-B | [ImageNet-22K](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_base_22k.pth) | Cascade Mask R-CNN | 3x | 55.0 | 47.5 | 196M | 988G | [model](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/detection/cmr_base_3x_in22k_AP55.pth) |
