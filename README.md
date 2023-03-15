@@ -10,6 +10,9 @@ International Conference on Learning Representations (ICLR) 2023\
 
 
 ## Updates
+**3/15/2023***\
+RevCol Huge checkpoint for segmentation released! Add visualization tools.
+
 **3/9/2023***\
 Detection, Segmentation Code and Model Weights Released.
 
