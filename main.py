@@ -80,7 +80,7 @@ def parse_option():
     return args, config
 
 
-def main(config):
+def main(unused, config, ngpus_per_node):
 
     config.defrost()
     if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
