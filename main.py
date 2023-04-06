@@ -80,7 +80,7 @@ def parse_option():
     return args, config
 
 
-def main(unused, config, ngpus_per_node):
+def main(config, ngpus_per_node):
 
     config.defrost()
     if 'RANK' in os.environ and 'WORLD_SIZE' in os.environ:
@@ -419,4 +419,4 @@ if __name__ == '__main__':
 
     ngpus_per_node = torch.cuda.device_count()
 
-    main(None, config, ngpus_per_node)
+    main(config, ngpus_per_node)
