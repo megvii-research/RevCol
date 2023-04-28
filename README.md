@@ -54,7 +54,9 @@ class="center">
 | RevCol-B<sup>\*</sup> | ImageNet-22K | 384x384 | 138M | 48.9G | 86.7 |[baidu](https://pan.baidu.com/s/1l8zOFifgC8fZtBpHK2ZQHg?pwd=rh58)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k.pth)| [baidu](https://pan.baidu.com/s/18G0zAUygKgu58s2AjCBpsw?pwd=rv86)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_base_22k_1kft_384.pth)|
 | RevCol-L<sup>\*</sup> | ImageNet-22K | 224x224 | 273M | 39G | 86.6 |[baidu](https://pan.baidu.com/s/1ueKqh3lFAAgC-vVU34ChYA?pwd=qv5m)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k.pth)| [baidu](https://pan.baidu.com/s/1CsWmcPcwieMzXE8pVmHh7w?pwd=qd9n)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k_1kft_224.pth)|
 | RevCol-L<sup>\*</sup> | ImageNet-22K | 384x384 | 273M | 116G | 87.6 |[baidu](https://pan.baidu.com/s/1ueKqh3lFAAgC-vVU34ChYA?pwd=qv5m)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k.pth)| [baidu](https://pan.baidu.com/s/1VmCE3W3Xw6-Lo4rWrj9Xzg?pwd=x69r)/[github](https://github.com/megvii-research/RevCol/releases/download/checkpoint/revcol_large_22k_1kft_384.pth)|
+| RevCol-H<sup>\*+</sup>  | Megdata-168M | pretrain 224 / finetune 640 | 2.1B | 2537 | 90.0 |[huggingface](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_huge_megdata.pth)|[huggingface](https://huggingface.co/LarryTsai/RevCol/blob/main/revcol_models/classification/revcol_huge_megdata_in1k.pth)|
 
+[+]: Note that we use a slightly different model on RevCol-H with one more branch from the bottom level to the top one. Later experiments prove that this connection is unnecessary, however, consider RevCol-H's training cost, we do not retrain it.
 ## Getting Started
 Please refer to [INSTRUCTIONS.md](INSTRUCTIONS.md) for setting up, training and evaluation details.
 

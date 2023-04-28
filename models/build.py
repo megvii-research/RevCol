@@ -7,7 +7,7 @@
 
 import torch
 from models.revcol import *
-
+from models.revcol_huge import revcol_huge
 
 
 def build_model(config):
@@ -37,6 +37,9 @@ def build_model(config):
 
     elif model_type == "revcol_xlarge":
         model = revcol_xlarge(save_memory=config.REVCOL.SAVEMM, inter_supv=config.REVCOL.INTER_SUPV, drop_path = config.REVCOL.DROP_PATH, num_classes=config.MODEL.NUM_CLASSES , head_init_scale=config.REVCOL.HEAD_INIT_SCALE,  kernel_size = config.REVCOL.KERNEL_SIZE)
+    
+    elif model_type == "revcol_huge":
+        model = revcol_huge(save_memory=config.REVCOL.SAVEMM, inter_supv=config.REVCOL.INTER_SUPV, drop_path = config.REVCOL.DROP_PATH, num_classes=config.MODEL.NUM_CLASSES , head_init_scale=config.REVCOL.HEAD_INIT_SCALE,  kernel_size = config.REVCOL.KERNEL_SIZE)
 
     else:
         raise NotImplementedError(f"Unkown model: {model_type}")
