@@ -7,9 +7,15 @@ This repo is the official implementation of:
 International Conference on Learning Representations (ICLR) 2023\
 [\[arxiv\]](https://arxiv.org/abs/2212.11696) 
 
-
+### [RevColV2: Exploring Disentangled Representations in Masked Image Modeling](https://arxiv.org/abs/2309.01005)
+[Qi Han](https://hanqer.github.io), [Yuxuan Cai](https://nightsnack.github.io), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ) \
+[MEGVII Technology](https://en.megvii.com)\
+[\[arxiv\]](https://arxiv.org/abs/2309.01005) 
 
 ## Updates
+**9/06/2023***\
+RevColv2 will be released soon!
+
 **3/15/2023***\
 RevCol Huge checkpoint for segmentation released! Add visualization tools.
 
